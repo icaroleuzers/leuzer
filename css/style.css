@@ -1,0 +1,297 @@
+body {
+    background-image: url('../images/back3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3{
+    font-size: 24px;
+    color: #4393de;
+}
+
+.navbar{
+    padding: 15px 30px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 45px; 
+}
+
+.code {
+    margin-left: 10px;
+}
+
+.container {
+    background-color: white;
+    padding: 40px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.profile-photo {
+    width: 80%;
+    border-radius: 3%;
+}
+
+p{
+    font-size: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.github-icon {
+    color: #333;
+    font-size: 55px;
+}
+
+.linkedin-icon {
+    color: #0077b5;
+    font-size: 55px;
+}
+
+.git a {
+    margin: 0 20px;
+}
+
+.github-icon:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.linkedin-icon:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.icones {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.icones .icon {
+    font-size: 75px;
+}
+
+.icones .html {
+    color: #E34F26;
+}
+
+.icones .css {
+    color: #1572B6;
+}
+
+.icones .js {
+    color: #F7DF1E;
+}
+
+.icones .bootstrap {
+    color: #563D7C;
+}
+
+.icones .materialize {
+    color: #00BFAE;
+}
+
+.icones .figma {
+    color: #F24E1E; 
+}
+
+.icones .jquery {
+    color: #0769AD;
+}
+
+.icones .uiux {
+    color: #FF6F61;
+}
+
+.icones .icon:hover {
+    opacity: 0.7;
+}
+
+.icones {
+    text-align: center;
+}
+
+.tech-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.tech-item span {
+    display: block;
+    margin-top: 5px;
+    font-size: 22px;
+    color: #8e959c;
+}
+
+.mt-5{
+    padding: -5px 0;
+}
+
+.git{
+    text-align: center;
+    font-size: 55px;
+}
+
+.projects{
+    padding-bottom: 35px;
+}
+
+#projetos h2 {
+    text-align: center;
+    padding-top: 60px;
+   
+}
+
+#projetos img {
+    margin-bottom: 20px;
+}
+
+.img-fluid {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+.service-item i{
+    color: #5a646e;
+}
+
+#pre, #nex{
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(67, 147, 2220);
+}
+
+.form-container {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    justify-content: center !important;
+    text-align: center !important;
+}
+h2 {
+    text-align: center;
+    color: #4393de;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-group input, .form-group textarea {
+    margin-top: 8px;
+}
+.form-group span {
+    font-size: 14px;
+    color: #555;
+}
+@media (max-width: 768px) {
+
+    .navbar-toggler{
+        text-align: right;
+        width: 60px;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin: 50px auto;
+        max-width: 1200px;        
+    }
+
+    .navbar-toggler{
+        text-align: right;
+        width: 60px;
+    }
+
+    .container .mt-4{
+        text-align: center;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-control-prev, .carousel-control-next{
+        margin-bottom: 400px !important;
+    }
+}
+
+@media(max-width: 500px) {
+    
+    .navbar-toggler{
+        text-align: right;
+        width: 60px;
+    }
+    .container {
+        margin: 50px auto;
+        max-width: 1200px;
+    }
+
+    .container .mt-4{
+        text-align: center;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-control-prev, .carousel-control-next{
+        margin-bottom: 400px !important;
+    }
+
+
+}
